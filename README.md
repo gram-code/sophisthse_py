@@ -16,7 +16,7 @@ from SophistHSE import SophistHSE
 
 
 HSE = SophistHSE()
-table = 'HHI_M_I.' #Put here name of dataset
+table = 'HHI_M_I' #Put here name of dataset
 df = HSE.get_table(table)
 ```
 
