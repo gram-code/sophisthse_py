@@ -16,12 +16,12 @@ from SophistHSE import SophistHSE
 
 
 HSE = SophistHSE()
-table = 'CPI_M_CHI' #Put here name of dataset
+table = 'HHI_M_I.' #Put here name of dataset
 df = HSE.get_table(table)
 ```
 
 If you need plot, use the column name:
 ```python
 import matplotlib.pyplot as plt
-plt.plot(df['CPI_M_CHI'])
+plt.plot(df['HHI_M_DIRI'])
 ```
