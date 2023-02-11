@@ -19,3 +19,9 @@ HSE = SophistHSE()
 table = 'CPI_M_CHI' #Put here name of dataset
 df = HSE.get_table(table)
 ```
+
+If you need plot:
+```python
+import matplotlib.pyplot as plt
+plt.plot(df['CPI_M_CHI'])
+```
